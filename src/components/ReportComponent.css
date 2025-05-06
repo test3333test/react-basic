@@ -17,9 +17,9 @@
     letter-spacing: 1px;
     margin: 5px 0;
 }
-.report.plus{
+.report.plus , h1.plus{
     color: #2ecc71;
 }
-.report.minus{
+.report.minus , h1.minus{
     color: red;
 }
