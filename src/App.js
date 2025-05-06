@@ -1,4 +1,5 @@
-import React, { useState, useEffect, reducer, useReducer } from "react";
+// import React, { useState, useEffect, reducer, useReducer } from "react";
+import React, { useState, useEffect } from "react";
 import Transaction from "./components/Transaction";
 import FormComponent from "./components/FormComponent";
 import "./App.css";
@@ -17,12 +18,12 @@ function App() {
   // const [items, setItems] = useState(initState);
   const [items, setItems] = useState([]);
 
-  const initState = [
-    { id: 1, title: "Miete", amount: -2000 },
-    { id: 2, title: "Lohn", amount: 12000 },
-    { id: 3, title: "Reise", amount: -500 },
-    { id: 4, title: "Online Verkauf", amount: 2000 },
-  ];
+  // const initState = [
+  //   { id: 1, title: "Miete", amount: -2000 },
+  //   { id: 2, title: "Lohn", amount: 12000 },
+  //   { id: 3, title: "Reise", amount: -500 },
+  //   { id: 4, title: "Online Verkauf", amount: 2000 },
+  // ];
 
   const [reportIncome, setReportIncome] = useState(0);
   const [reportExpense, setReportExpense] = useState(0);
