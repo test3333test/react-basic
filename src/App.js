@@ -63,7 +63,7 @@ function App() {
       value={{ income: reportIncome, expense: reportExpense }}
     >
       <div className="container">
-        <h1 style={design}>Buchhaltung12345</h1>
+        <h1 style={design}>Buchhaltung</h1>
         {/* {showReport && <ReportComponent />} */}
         <Router>
           <div>

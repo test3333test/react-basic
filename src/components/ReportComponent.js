@@ -22,16 +22,16 @@ const ReportComponent = () => {
       {/* <p>income : {income}</p>
       <p>expense : {expense}</p> */}
 
-      <h4>Restbetrag (Bath)</h4>
-      <h1>฿{formatNumber((income - expense).toFixed(2))}</h1>
+      <h4>Restbetrag (CHF)</h4>
+      <h1>CHF {formatNumber((income - expense).toFixed(2))}</h1>
       <div className="report-container">
         <div>
           <h4>total income</h4>
-          <p className="report plus">฿{formatNumber(income)}</p>
+          <p className="report plus">CHF {formatNumber(income)}</p>
         </div>
         <div>
           <h4>total expense</h4>
-          <p className="report minus">฿{formatNumber(expense)}</p>
+          <p className="report minus">CHF {formatNumber(expense)}</p>
         </div>
       </div>
     </div>
