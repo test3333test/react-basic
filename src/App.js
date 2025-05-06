@@ -9,10 +9,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   const design = { color: "red", textAlign: "center", frontSize: "1.5rem" };
-  const initData = [
-    { id: 1, title: "Miete", amount: -3000 },
-    { id: 2, title: "Lohn", amount: 50000 },
-  ];
+
   // const initData = [];
   // const [items, setItems] = useState(initData);
   // const [items, setItems] = useState(initState);

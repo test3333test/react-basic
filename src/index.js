@@ -3,20 +3,20 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import HelloExternalComponent from "./components/HelloExternalComponent";
+// import HelloExternalComponent from "./components/HelloExternalComponent";
 
-const data = <h1>Hello React</h1>;
+// const data = <h1>Hello React</h1>;
 
-// create Component
-function HelloFunctionComponent() {
-  return <h1>Hello Fuction Component</h1>;
-}
+// // create Component
+// function HelloFunctionComponent() {
+//   return <h1>Hello Fuction Component</h1>;
+// }
 
-class HelloClassComponent extends React.Component {
-  render() {
-    return <h1>Hello Class Component</h1>;
-  }
-}
+// class HelloClassComponent extends React.Component {
+//   render() {
+//     return <h1>Hello Class Component</h1>;
+//   }
+// }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
